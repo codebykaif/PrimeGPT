@@ -28,7 +28,7 @@ router.get("/thread", async(req, res) => {
         res.json(threads);
     } catch(err) {
         console.log(err);
-        res.status(500).json({error: "Failed to fetch threads"});
+        res.status(500).json({error: "Fail to fetch thread"});
     }
 });
 
